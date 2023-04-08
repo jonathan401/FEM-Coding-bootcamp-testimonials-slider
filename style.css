@@ -89,7 +89,7 @@ a:focus {
 }
 
 .image-wrapper img {
-  box-shadow: 0 1rem 1.4rem 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2.5rem 3.125rem -1.875rem rgba(36, 36, 113, 0.5);
 }
 
 /* control buttons */
@@ -109,7 +109,7 @@ a:focus {
   justify-content: space-between;
   gap: 1.5rem;
   border-radius: 1.3rem;
-  box-shadow: 0 1rem 1rem 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1rem 1.25rem -0.625rem rgba(36, 36, 113, 0.1);
 }
 
 .control-buttons svg {
