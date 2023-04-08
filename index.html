@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Coding Bootcamp Testimonials Slider</title>
+  </head>
+  <body>
+    <main>
+      <h1 class="sr-only">Frontend Mentor Coding Bootcamp Testimonials</h1>
+      <section id="testimonial-wrapper" aria-live="polite">
+        <article class="testimonial-card">
+          <div class="image-wrapper">
+            <img
+              class="user-image animate__animated animate__backInUp"
+              src="./images/image-tanya.jpg"
+              alt="Tanya Sinclair"
+            />
+            <div
+              class="animate__animated animate__fadeIn control-buttons-wrapper"
+            >
+              <div aria-controls="testimonial-wrapper" class="control-buttons">
+                <button class="btn" aria-label="previous" id="prev-btn">
+                  <svg
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="12"
+                    height="18"
+                  >
+                    <path
+                      fill="none"
+                      stroke="#8585AC"
+                      stroke-width="3"
+                      d="M11 1L3 9l8 8"
+                    />
+                  </svg>
+                </button>
+                <button class="btn" aria-label="next" id="next-btn">
+                  <svg
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="13"
+                    height="18"
+                  >
+                    <path
+                      fill="none"
+                      stroke="#8585AC"
+                      stroke-width="3"
+                      d="M2 1l8 8-8 8"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial">
+            <p class="animate__animated animate__backInDown testimonial__text">
+              “I&apos;ve been interested in coding for a while but never taken
+              the jump, until now. I couldn&apos;t recommend this course enough.
+              I&apos;m now in the job of my dreams and so excited about the
+              future.”
+            </p>
+            <div class="about-user animate__animated animate__backInLeft">
+              <h2 class="username">Tanya Sinclair</h2>
+              <p class="user-position">UX Engineer</p>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://www.frontendmentor.io/profile/jonathan401">Jonathan</a>.
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
